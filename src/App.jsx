@@ -1,4 +1,4 @@
-import "./assets/css/style.css"
+import "./assets/css/style.css";
 import About from "./components/About";
 import Blog from "./components/Blogs";
 import Contact from "./components/Contact";
@@ -9,8 +9,6 @@ import Menu from "./components/Menu";
 import Product from "./Components/Product";
 import Review from "./components/Review";
 
-
-
 function App() {
   return (
     <>
@@ -18,18 +16,13 @@ function App() {
       <Home />
       <About />
       <Menu />
-      <Product/>
+      <Product />
       <Review />
       <Contact />
       <Blog />
-    <Footer /> 
-
-      </>
-   
-  )
+      <Footer />
+    </>
+  );
 }
 
-export default App
-
-
-
+export default App;
